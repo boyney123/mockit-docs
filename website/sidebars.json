@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Introduction": ["using-mockit/motivation", "using-mockit/how-it-works"],
+    "Getting Started": ["getting-started/installation", "getting-started/routes", "getting-started/global-settings"],
+    "Contributing": ["contributing/contributing"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
