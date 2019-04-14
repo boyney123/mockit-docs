@@ -95,7 +95,7 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   repoUrl: "https://github.com/boyney123/mockit",
 
-  gaTrackingId: "UA-126459538-1"
+  gaTrackingId: "UA-126459538-3"
 };
 
 module.exports = siteConfig;
