@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: "mockit", // Title for your website.
   tagline: "An open source tool to mock endpoints",
-  url: "https://garie.io", // Your website URL
+  url: "https://mockit.netlify.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -32,7 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: "garie",
   organizationName: "boyney123",
-  editUrl: "https://github.com/facebook/docusaurus/edit/master/docs/",
+  editUrl: "https://github.com/boyney123/mockit-docs",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
