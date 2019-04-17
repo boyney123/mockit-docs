@@ -18,13 +18,27 @@
   margin-right: 20px;
 }
 
+.main-hero .projectTitle {
+  color: #615f5f;
+}
+
+.main-hero p {
+  color: #353535;
+  padding: 0 200px;
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 21px;
+  font-family: Lato;
+  font-weight: 300;
+}
+
 .projectTitle,
 .projectTagLine {
   font-family: HelveticaNeue, serif;
   text-align: center;
   line-height: 1em;
   color: #fff;
-  font-size: 72px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -34,7 +48,7 @@
 
 .projectImage img {
   box-shadow: 2px 2px 5px 0px #bcc9d2;
-  width: 80%;
+  width: 60%;
 }
 
 .productShowcaseSection,
@@ -111,27 +125,32 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 500px) {
   .projectImage img {
     width: 100%;
   }
+}
 
-  .mainContainer img {
-    width: 100%;
-  }
-
+@media only screen and (max-width: 736px) {
   .mainContainer .blockElement {
     margin: 25px 0 50px;
+  }
+
+  .main-hero p {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+
+  .main-hero .projectTitle {
+    margin-top: 0;
+    font-size: 32px;
   }
 }
 
 @media only screen and (max-width: 1023px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
+  .main-hero p {
+    padding: 0 10px;
+  }
 }
 
 .fixedHeaderContainer {

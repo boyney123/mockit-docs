@@ -58,8 +58,9 @@ const Logo = props => (
 );
 
 const ProjectTitle = () => (
-  <div>
-    {/* <h2 className="projectTitle">{siteConfig.title}</h2> */}
+  <div className="main-hero">
+    <h1 className="projectTitle">Quickly create mock APIs.</h1>
+    <p>Stop wasting time mocking APIs. MockIt gives you an interface to configure and create REAL mocked end points for your applications.</p>
     <div className="projectImage">
       {/* <img src={imgUrl("garie-transparent.png")} /> */}
       <img src={imgUrl("mockit-screen1.png")} />
@@ -120,19 +121,19 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: "Change API's with instant server reload. No need to redeploy.",
+        content: "Changes made on the interface are instantly reflected on the server. No need to redeploy.",
         image: "https://image.flaticon.com/icons/svg/813/813322.svg",
         imageAlign: "top",
-        title: "Hotreload API's"
+        title: "Live reload on server"
       },
       {
-        content: "Quickly create, edit & delete mock API'S. Chaos engineering, CORS enabled, Auth features and more...",
+        content: "Quickly create, edit & delete HTTP end points. Chaos engineering, CORS enabled, Auth features and more...",
         image: "https://image.flaticon.com/icons/svg/813/813316.svg",
         imageAlign: "top",
         title: "Features"
       },
       {
-        content: "Built with Docker. Getting up and running with one command.",
+        content: "Built with Docker. Run one command to get up and running straight away.",
         image: "https://image.flaticon.com/icons/svg/919/919853.svg",
         imageAlign: "top",
         title: "Setup in Minutes"
@@ -230,7 +231,7 @@ class Index extends React.Component {
               <div class="content row">
                 <div class="col">
                   <h3>No more waiting for API's to be built...</h3>
-                  <p>Sometimes stubbing API's with JSON files is not enough. Use MockIt to quickly create real end points you can hit and configure your responses.</p>
+                  <p>Sometimes stubbing API's with JSON files is not enough. Use MockIt to quickly create real end points you can hit and configure for your application.</p>
 
                   <a class="learnmore" href="/docs/using-mockit/motivation">
                     Learn more
@@ -248,9 +249,9 @@ class Index extends React.Component {
                 </div>
                 <div class="col">
                   <h3>Easily Manage Your Mocked API</h3>
-                  <p>Easy to user interface to add, edit and delete routes on the fly.</p>
-                  <p>You can manage responses, status codes, change the http method and even add delays to each route you add.</p>
-                  <p>The server is listening for any changes you make. So with any change to your mocked API you will instantly see the changes.</p>
+                  <p>Easy to use interface to add, edit and delete HTTP end points on the fly.</p>
+                  <p>You can manage responses, status codes, http methods and even add delays to each end point you add.</p>
+                  <p>The server is always listening for any changes you make. So any change you make in the UI will instantly be shown on your server.</p>
 
                   <a class="learnmore" href="/docs/getting-started/routes">
                     Learn more
@@ -261,7 +262,7 @@ class Index extends React.Component {
             <div className="feature feature-light">
               <div class="content row">
                 <div class="col">
-                  <h3>Chaos Monkey</h3>
+                  <h3>Chaos Engineering</h3>
                   <p>Enable the monkey and he will cause destruction on your API. He might take it down, add random delays, returns 🍌 and more...</p>
 
                   <a class="learnmore" href="/docs/getting-started/global-settings#chaos-monkey">
