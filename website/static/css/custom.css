@@ -6,6 +6,14 @@
   /* background-image: linear-gradient(180deg, #269eac, #1e545a); */
 }
 
+.homeContainer .badges a {
+  margin-right: 10px;
+}
+
+.homeContainer .badges {
+  margin: 20px 0 10px;
+}
+
 .promoSection a {
   margin-right: 20px;
 }

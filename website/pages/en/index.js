@@ -82,6 +82,24 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
+
+          <div className="badges">
+            <a href="https://travis-ci.org/boyney123/mockit" target="_blank">
+              <img src="https://img.shields.io/travis/boyney123/mockit/master.svg" />
+            </a>
+            <a href="https://codecov.io/gh/boyney123/mockit" target="_blank">
+              <img src="https://codecov.io/gh/boyney123/mockit/branch/master/graph/badge.svg?token=AoXW3EFgMP" />
+            </a>
+
+            <a href="https://github.com/boyney123/mockit" target="_blank">
+              <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+            </a>
+
+            <a href="https://github.com/boyney123/mockit" target="_blank">
+              <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+            </a>
+          </div>
+
           <PromoSection>
             <Button href="/docs/getting-started/installation">Read Docs</Button>
             {/* <Button href="docs/examples/example-list">View Examples</Button> */}
