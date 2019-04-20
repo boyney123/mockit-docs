@@ -39,6 +39,6 @@ If you click on `Settings` you can see all the global features. Scross to the `C
 
 ![Monkey feature switch](/img/docs/global-settings/monkey-switch.png "Monkey feature switch")
 
-Once he is enabled he will cause disruption's on your APIS.
+Once he is enabled, he will cause disruption on your APIs.
 
 ![Monkey feature UI](/img/docs/global-settings/monkey.png "Monkey feature UI")
