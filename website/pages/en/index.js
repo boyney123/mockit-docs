@@ -253,7 +253,7 @@ class Index extends React.Component {
                 <div class="col">
                   <h3>Easily Manage Your Mocked API</h3>
                   <p>Easy to use interface to add, edit and delete HTTP end points on the fly.</p>
-                  <p>You can manage responses, status codes, http methods and even add delays to each end point you add.</p>
+                  <p>You can manage responses, status codes, HTTP methods and even add delays to each end point you add.</p>
                   <p>The server is always listening for any changes you make. So any change you make in the UI will instantly be shown on your server.</p>
 
                   <a class="learnmore" href="/docs/getting-started/routes">
@@ -284,7 +284,7 @@ class Index extends React.Component {
                 </div>
                 <div class="col">
                   <h3>Built with Docker</h3>
-                  <p>MockIt is built on a Docker architecture. The client clients server and your dynamic API all run as seperate apps,.</p>
+                  <p>MockIt is built on a Docker architecture. The client, server and your dynamic API all run as separate apps.</p>
                   <p>Each app shares the same configuration file using Docker volumes.</p>
 
                   <a class="learnmore" href="/docs/using-mockit/how-it-works">
@@ -298,7 +298,7 @@ class Index extends React.Component {
               <div class="content row">
                 <div class="col">
                   <h3>MockIt is open source</h3>
-                  <p>MockIt was built to help developers get mock API's up and running as fast as possible.</p>
+                  <p>MockIt was built to help developers get mock APIs up and running as fast as possible.</p>
                   <p>If you would like to contribute feel free to checkout the repository.</p>
 
                   <a class="learnmore" href="/docs/contributing/contributing">
