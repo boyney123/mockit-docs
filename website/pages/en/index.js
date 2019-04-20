@@ -103,6 +103,9 @@ class HomeSplash extends React.Component {
 
           <PromoSection>
             <Button href="/docs/getting-started/installation">Read Docs</Button>
+            <Button target="_blank" href="https://github.com/boyney123/mockit">
+              View on GitHub
+            </Button>
             {/* <Button href="docs/examples/example-list">View Examples</Button> */}
           </PromoSection>
         </div>
