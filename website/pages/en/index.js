@@ -284,7 +284,7 @@ class Index extends React.Component {
                 </div>
                 <div class="col">
                   <h3>Built with Docker</h3>
-                  <p>MockIt is built on a Docker architecture. The client, client's server and your dynamic API all run as separate apps.</p>
+                  <p>MockIt is built on a Docker architecture. The client, server and your dynamic API all run as separate apps.</p>
                   <p>Each app shares the same configuration file using Docker volumes.</p>
 
                   <a class="learnmore" href="/docs/using-mockit/how-it-works">
