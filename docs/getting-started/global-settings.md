@@ -11,7 +11,7 @@ By default `cors` will be enabled your API, letting other applications not hoste
 
 ![Cors feature switch](/img/docs/global-settings/cors-switch.png "Cors feature switch")
 
-## Authenication
+## Authentication
 
 By default authentication is disabled, and any route can be accessed. If you want to enable [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) then you need to enable it on the `settings` screen.
 
