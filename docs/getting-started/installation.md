@@ -17,17 +17,7 @@ git clone git@github.com:boyney123/mockit.git
 ## Running the project
 
 ```
-	cd mockit && sh build-and-start.sh
-```
-
-The `build-and-start` script will build all docker containers on your machine and then use `docker-compose` to launch all containers.
-
-#### Permissions
-
-If you have some permission issues running the file, so you might need to chmod it.
-
-```
-chmod +x build-and-start.sh && ./build-and-start.sh
+	cd mockit && docker-compose up -d
 ```
 
 ## Viewing the dashboard, server and api
