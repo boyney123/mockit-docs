@@ -99,6 +99,10 @@ class HomeSplash extends React.Component {
             <a href="https://github.com/boyney123/mockit" target="_blank">
               <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
             </a>
+
+            <a href="https://github.com/boyney123/mockit" target="_blank">
+              <img src="https://img.shields.io/github/stars/boyney123/mockit.svg?style=social" />
+            </a>
           </div>
 
           <PromoSection>
