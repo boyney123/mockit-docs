@@ -1,7 +1,8 @@
 {
   "docs": {
     "Introduction": ["using-mockit/motivation", "using-mockit/how-it-works"],
-    "Getting Started": ["getting-started/installation", "getting-started/routes", "getting-started/global-settings"],
+    "Getting Started": ["getting-started/installation", "getting-started/routes"],
+    "Features": ["features/basic-authentication", "features/chaos-monkey", "features/cors", "features/grouped-routes"],
     "Contributing": ["contributing/contributing"]
   },
   "docs-other": {
