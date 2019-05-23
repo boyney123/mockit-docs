@@ -245,7 +245,7 @@ class Index extends React.Component {
                   </a>
                 </div>
                 <div class="col center">
-                  <img src={imgUrl("/docs/mockit/add-route-2.png")} />
+                  <img src={imgUrl("/docs/routes/add-route.png")} />
                 </div>
               </div>
             </div>
@@ -260,7 +260,7 @@ class Index extends React.Component {
                   <p>You can manage responses, status codes, HTTP methods and even add delays to each end point you add.</p>
                   <p>The server is always listening for any changes you make. So any change you make in the UI will instantly be shown on your server.</p>
 
-                  <a class="learnmore" href="/docs/getting-started/routes">
+                  <a class="learnmore" href="/docs/getting-started/installation">
                     Learn more
                   </a>
                 </div>
