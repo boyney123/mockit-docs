@@ -41,7 +41,7 @@ const siteConfig = {
   headerLinks: [
     { doc: "using-mockit/motivation", label: "Introduction" },
     { doc: "getting-started/installation", label: "Getting Started" },
-    // { blog: true, label: "Blog" },
+    { blog: true, label: "Blog" },
     { href: "https://github.com/boyney123/mockit", label: "GitHub" }
     // { href: "https://join.slack.com/t/garieworkspace/shared_invite/enQtNTMxMDk3ODg3NDkxLTliOTdlODk3ZWVmM2MzOTMxNDc3ODk1YWRjMDI3OWY1MGNlYWJjNzhjYzZjZTJhZGJlNTM2YjdlNDU4ZDcxZDg", label: "Join Slack" }
   ],
