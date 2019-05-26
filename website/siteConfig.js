@@ -95,6 +95,12 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   repoUrl: "https://github.com/boyney123/mockit",
 
+  // Algolia DocSearch config
+  algolia: {
+    apiKey: "61c2a0c55e8784cb1b6bd873f311d841",
+    indexName: "mockit"
+  },
+
   gaTrackingId: "UA-126459538-3"
 };
 
