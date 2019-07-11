@@ -11,13 +11,13 @@ title: Installation
 ## Cloning the project
 
 ```bash
-git clone git@github.com:boyney123/mockit.git
+git clone https://github.com/boyney123/mockit.git
 ```
 
 ## Running the project
 
-```
-	cd mockit && docker-compose up -d
+```bash
+cd mockit && docker-compose up -d
 ```
 
 ## Viewing the dashboard, server and api
