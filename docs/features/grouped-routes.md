@@ -5,7 +5,7 @@ title: Grouped Routes
 
 By default all routes shown are stacked by default.
 
-For example if you had routes `/users`, `/users/boyney123`, /users/boyney123/details` they would all stack by default.
+For example if you had routes `/users`, `/users/boyney123`, `/users/boyney123/details` they would all stack by default.
 
 ![Routes Stacked](/img/docs/features/grouped-routes/routes-stacked.png "Routes Stacked")
 
@@ -15,7 +15,7 @@ If you continue to add routes the UI may get unmanageable. Thats why we created 
 
 ## Grouped Routes
 
-Grouped routes uses the `path` of the route and will group them based on that. So given our example above with `/users`, `/users/boyney123`, /users/boyney123/details` the UI will now group routes.
+Grouped routes uses the `path` of the route and will group them based on that. So given our example above with `/users`, `/users/boyney123`, `/users/boyney123/details` the UI will now group routes.
 
 ![Grouped Routes](/img/docs/features/grouped-routes/routes-grouped.png "Routes Grouped")
 
